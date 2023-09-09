@@ -1,30 +1,39 @@
+body{
+    margin: 0;
+}
+
 #header{
     background-color: rgb(52, 124, 218);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
 }
 
 #jam{
     display: flex;
-    text-align: center;
-    justify-content: center;
+    margin-left: 25px;
 }
 
 .j{
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+} 
 
 .three{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    min-width: 200px;
+    margin-right: 25px;
 }
 
 ul{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     list-style-type: none;
+    align-items: center;
 }
 
 a{
@@ -33,66 +42,93 @@ a{
 }
 
 .first{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.relaxandlearnguitar.com/wp-content/uploads/2016/05/guitar-366301_1920.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vogazeta.ru/uploads/1557747981-a4f55da0406fc8ce2ede38f5fba4920d.jpg);
+    background-size: 1500px;
     color: white;
     max-width: 100%;
     height: 800px;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
-img{
-    max-width: 100%;
+.school{
+
 }
 
 #napravlenie{
-    background-color: brown;
-    height: 700px;
+    background-color: white;
+    min-height: 700px;
+    color: white;
+}
+
+.direct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
 }
 
 #ins{
     display: flex;
     flex-wrap: wrap;
-    height: 40%;
+    gap: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .instrumentg, .instrumentp, .instrumentd, .instrumentf, .instrumento, .instrumentv, .instrumentu{
-    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px;
+    min-height: 300px;
     flex-grow: 1;
     flex-shrink: 1;
+    background-position: center center;
+    border-radius: 25px;
 }
 
 .instrumentp{
-    background-image: url(https://muzdrive.com.ua/content/images/1/558x390l80nn0/tsifrovoe-pianino-kawai-ca58w-78994932946877.jpg);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://s8.hostingkartinok.com/uploads/images/2018/09/66ee2632b62f5d628b98925ecc1b163f.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
 }
 
 .instrumentg{
-    background-image: url(https://cache3.youla.io/files/images/720_720_out/5d/9b/5d9b20e4b5fc2d07915f6e13.jpg);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.culture.ru/images/319bcc77-dd02-5e4d-a6f5-8bade4d63bdd);
+    background-size: 450px;
+    background-repeat: no-repeat;
 }
 
 .instrumentd{
-    background-image: url(http://thechilisource.com/wp-content/uploads/2014/02/chad-smith-superbowl-drum-kit-3.jpg);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://kartinkin.net/uploads/posts/2022-12/1670319783_1-kartinkin-net-p-baraban-kartinka-oboi-1.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
 }
 
 .instrumentf{
-    background-image: url(https://cdn.idntimes.com/content-images/community/2022/03/pexels-photo-2254140-05b992a0ef71382bfd91851a2ae52382-d648fb7a50bd9bffe7caf69bdeb7a315.jpg);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.lessonface.com/sites/default/files/user-files/1649/person-playing-wind-instrument-2254140.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
 }
 
 .instrumentu{
-    background-image: url(https://sun9-79.userapi.com/impf/bcUyMPexvtjNxIitsPAiMCu4EvCpNDoGPQ47bw/qDl6AwpLSrw.jpg?size=693x707&quality=96&sign=a905d1634f489f58f4861d78f97227ac&c_uniq_tag=R35eBrdmr2WPELRlBn8mjI-mVUnWvkHGsvdsNOgKrlM&type=album);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://i.pinimg.com/originals/2e/3c/a1/2e3ca1d5f9e0048c1da2d43403a9062d.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
 }
 
 .instrumentv{
-    background-image: url(https://76.img.avito.st/image/1/XXHfr7a_8ZipCgOe6f5TYUcM95JhzPVqbQzznmcK85hrSg);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://i.pinimg.com/originals/42/1e/1a/421e1aa5714df25483ea6e0603b7bd75.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
 }
 
 .instrumento{
-    background-image: url(https://i.ytimg.com/vi/WIJ8RsI6ae0/hqdefault.jpg);
-    min-width: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://akkordeon-shop.ru/upload/catalog/ru/weltmeister-s4.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
 }
 
 
@@ -115,6 +151,9 @@ img{
 .dvepolosi{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #footer{
