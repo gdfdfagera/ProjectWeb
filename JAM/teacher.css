@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: rgb(52, 124, 218);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+#jam{
+    display: flex;
+    margin-left: 25px;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    margin-right: 25px;
+}
+
+.j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#first{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8babe8628e9471ae5f962d112775073c1ae3924ccbc49d6c149c90f8c168a233._RI_.jpg);
+    background-size: 1500px;
+    width: 100%;
+    height: 800px;
+    color: white;
+}
+
+.block{
+    width: 50%;
+    height: 500px;
+    padding: 0 250px;
+    padding-top: 150px;
+}
+
+.vibor{
+    padding-top: 150px;
+}
+
+.try{
+    padding-top: 150px;
+}
+
+#prepodi{
+    width: 100%;
+}
+
+.f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 0 150px;
+    gap: 15px;
+}
+
+.f div{
+    flex: 1 1 0;
+}
+
+.foto{
+    background: url(https://stihi.ru/pics/2014/07/21/4062.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
+
+.info{
+
+}
+
+.watch{
+    text-align: right;
+}
+
+#footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.about{
+    max-width: 23%;
+}
