@@ -161,6 +161,7 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 20px;
 }
 
 #footer{
