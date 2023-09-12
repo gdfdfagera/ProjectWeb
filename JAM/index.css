@@ -3,11 +3,12 @@ body{
 }
 
 #header{
-    background-color: rgb(52, 124, 218);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 100px;
+    position:absolute;
+    color: white;
 }
 
 #jam{
@@ -37,12 +38,12 @@ ul{
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .first{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vogazeta.ru/uploads/1557747981-a4f55da0406fc8ce2ede38f5fba4920d.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://vogazeta.ru/uploads/1557747981-a4f55da0406fc8ce2ede38f5fba4920d.jpg);
     background-size: 1500px;
     color: white;
     max-width: 100%;
