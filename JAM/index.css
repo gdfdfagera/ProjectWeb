@@ -53,9 +53,6 @@ a{
     align-items: center;
 }
 
-.school{
-
-}
 
 #napravlenie{
     background-color: white;
@@ -134,7 +131,7 @@ a{
 
 
 #cause{
-    background-color: rgb(27, 141, 143);
+    background-color:  rgb(233, 233, 233);
     width: 100%;
     height: 500px;
     display: flex;
@@ -166,13 +163,28 @@ a{
 }
 
 #footer{
-    background-color: blueviolet;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+}
+
+.t{
     display: flex;
     justify-content: space-between;
-    gap: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
+    min-width: 70%;
+}
+
+.end{
+    padding-top: 100px;
+}
+
+.teacher, .student, .about{
+    padding-top: 40px;
 }
 
 .about{
