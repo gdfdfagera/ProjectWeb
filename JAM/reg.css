@@ -73,12 +73,17 @@ a{
 }
 
 input{
-    width: 250px;
-    height: 25px;
+    width: 300px;
+    height: 35px;
     border-radius: 25px;
-    background: transparent;
+    opacity: 10%;
     border: none;
     border-bottom: 1px solid #444;
+}
+
+::placeholder{
+    color: black;
+    padding-left: 15px;
 }
 
 button{
@@ -97,6 +102,7 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: rgb(45, 45, 58);
 }
 
 .buttont{
