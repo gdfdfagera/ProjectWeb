@@ -14,12 +14,18 @@ body{
 #jam{
     display: flex;
     margin-left: 25px;
+    width: 150px;
 }
 
 .j{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 150px;
+    background: url(img/Black.svg);
+    background-size: 140px;
+    background-position: center center;
+    background-repeat: no-repeat;
 } 
 
 .three{

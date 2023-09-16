@@ -14,6 +14,7 @@ body{
 #jam{
     display: flex;
     margin-left: 25px;
+    width: 150px;
 }
 
 .j{

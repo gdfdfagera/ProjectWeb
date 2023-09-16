@@ -14,12 +14,18 @@ body{
 #jam{
     display: flex;
     margin-left: 25px;
+    width: 150px;
 }
 
 .j{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 150px;
+    background: url(img/Black.svg);
+    background-size: 140px;
+    background-position: center center;
+    background-repeat: no-repeat;
 } 
 
 .three{
@@ -43,7 +49,7 @@ a{
 }
 
 .first{
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://vogazeta.ru/uploads/1557747981-a4f55da0406fc8ce2ede38f5fba4920d.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://vogazeta.ru/uploads/1557747981-a4f55da0406fc8ce2ede38f5fba4920d.jpg);
     background-size: 1500px;
     color: white;
     max-width: 100%;
