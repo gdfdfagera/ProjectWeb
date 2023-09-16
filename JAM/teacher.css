@@ -92,8 +92,40 @@ a{
     background-position: center;
 }
 
-.info{
+.fotot{
+    background: url(http://images6.fanpop.com/image/photos/37100000/Pianist-Reuel-music-37134810-2731-2551.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
 
+.fotothr{
+    background: url(https://freetraining.americanpostureinstitute.com/wp-content/uploads/2016/11/shutterstock_360322883.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
+
+.fotof{
+    background: url(https://tallypress.com/wp-content/uploads/2017/12/top-3-venues-kl-every-music-lover-visit-christmas.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
+
+.fotofi{
+    background: url(https://kartinkin.net/uploads/posts/2021-03/1616070364_54-p-fleita-krasivie-foto-58.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
 }
 
 .watch{
@@ -101,15 +133,39 @@ a{
 }
 
 #footer{
-    background-color: blueviolet;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+}
+
+.t{
     display: flex;
     justify-content: space-between;
-    gap: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
+    min-width: 70%;
+}
+
+.end{
+    padding-top: 100px;
+}
+
+.teacher, .student, .about{
+    padding-top: 40px;
 }
 
 .about{
     max-width: 23%;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    background: transparent;
+    border-bottom: 2px solid #787878;
+    color: white;
 }

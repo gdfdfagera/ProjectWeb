@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    position:absolute;
+    color: white;
+}
+
+#jam{
+    display: flex;
+    margin-left: 25px;
+}
+
+.j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    margin-right: 25px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#main{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://get.pxhere.com/photo/music-people-girl-sunshine-woman-guitar-acoustic-guitar-summer-instrument-musician-yellow-acoustic-musical-instrument-sunny-bassist-singing-guitarist-bass-guitar-string-instrument-plucked-string-instruments-860489.jpg);
+    background-size: 1500px;
+    width: 100%;
+    height: 800px;
+    color: white;
+}
+
+
+#inst{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ogr{
+    width: 90%;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+}
+
+.ex{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 15px;
+}
+
+.ex div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    min-height: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+.g{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://cdn.culture.ru/images/319bcc77-dd02-5e4d-a6f5-8bade4d63bdd);
+    background-size: 450px;
+    background-repeat: no-repeat;
+}
+
+.p{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://s8.hostingkartinok.com/uploads/images/2018/09/66ee2632b62f5d628b98925ecc1b163f.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.v{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://i.pinimg.com/originals/42/1e/1a/421e1aa5714df25483ea6e0603b7bd75.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.u{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://i.pinimg.com/originals/2e/3c/a1/2e3ca1d5f9e0048c1da2d43403a9062d.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+
+#how{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(225, 225, 225);
+}
+
+.kak{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 150px;
+}
+
+.way{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.w{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.zay{
+    max-width: 250px;
+    height: 200px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 350px;
+    height: 50px;
+    border-radius: 35px;
+    background: transparent;
+    border-bottom: 3px solid #787878;
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+}
+
+.t{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 70%;
+}
+
+.end{
+    padding-top: 100px;
+}
+
+.teacher, .student, .about{
+    padding-top: 40px;
+}
+
+.about{
+    max-width: 23%;
+}
+
+.i{
+    width: 100px;
+    height: 150px;
+}

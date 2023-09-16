@@ -46,7 +46,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://gagaru.club/uploads/posts/2023-05/1685380561_gagaru-club-p-risunki-tsoya-krasivo-5.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://gagaru.club/uploads/posts/2023-05/1685380561_gagaru-club-p-risunki-tsoya-krasivo-5.jpg);
     background-size: 800px;
 }
 
@@ -66,19 +66,30 @@ a{
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sansita Swashed', cursive;
-    border: 1px dashed black;
     width: 500px;
     height: 500px;
     margin-top: 90px;
 }
 
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+
 button{
     border-radius: 35px;
     border: none;
+    background: transparent;
+    border-bottom: 3px solid #787878;
 }
 
 .buttono{
-    background-color: blue;
+    background: transparent;
+    border-bottom: 3px solid #787878;
     width: 250px;
     height: 45px;
 }
@@ -120,4 +131,9 @@ button:hover{
 
 .about{
     max-width: 23%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
