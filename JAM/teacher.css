@@ -84,6 +84,10 @@ a{
     flex: 1 1 0;
 }
 
+.r{
+    color: black;
+}
+
 .foto{
     background: url(https://stihi.ru/pics/2014/07/21/4062.jpg);
     background-size: 400px;

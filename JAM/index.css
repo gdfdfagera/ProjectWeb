@@ -11,6 +11,10 @@ body{
     color: white;
 }
 
+.three li {
+    font-size: 20px;
+}
+
 #jam{
     display: flex;
     margin-left: 25px;
@@ -62,7 +66,7 @@ a{
 
 #napravlenie{
     background-color: white;
-    min-height: 700px;
+    min-height: 730px;
     color: white;
 }
 
@@ -153,11 +157,22 @@ a{
     margin-left: 70px;
     margin-right: 70px;
     padding-top: 30px;
+    height: 350px;
 }
 
-.c{
-    flex-grow: 1;
-    flex-shrink: 1;
+.school {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.school p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.school h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dvepolosi{
@@ -165,7 +180,11 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 25px;
+}
+
+.c{
+    flex: 1;
 }
 
 #footer{
