@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 #header{
@@ -19,6 +21,7 @@ body{
     display: flex;
     margin-left: 25px;
     width: 150px;
+    height: 50px;
 }
 
 .j{
@@ -27,7 +30,7 @@ body{
     align-items: center;
     width: 150px;
     background: url(img/Black.svg);
-    background-size: 140px;
+    background-size: 80px;
     background-position: center center;
     background-repeat: no-repeat;
 } 
@@ -81,8 +84,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .instrumentg, .instrumentp, .instrumentd, .instrumentf, .instrumento, .instrumentv, .instrumentu{
@@ -143,7 +146,7 @@ a{
 #cause{
     background-color:  rgb(233, 233, 233);
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -157,7 +160,7 @@ a{
     margin-left: 70px;
     margin-right: 70px;
     padding-top: 30px;
-    height: 350px;
+    height: auto;
 }
 
 .school {
@@ -177,7 +180,7 @@ a{
 
 .dvepolosi{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     text-align: center;
     gap: 25px;
@@ -193,7 +196,7 @@ a{
     justify-content: center;
     align-items: center;
     color: white;
-    height: 200px;
+    min-height: 200px;
 }
 
 .t{
