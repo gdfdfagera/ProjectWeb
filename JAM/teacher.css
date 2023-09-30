@@ -2,47 +2,6 @@ body{
     margin: 0;
 }
 
-#header{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100px;
-    position:absolute;
-    color: white;
-}
-
-#jam{
-    display: flex;
-    margin-left: 25px;
-    width: 150px;
-}
-
-.j{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-.three{
-    display: flex;
-    justify-content: space-between;
-    min-width: 200px;
-    margin-right: 25px;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style-type: none;
-    align-items: center;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
 #first{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8babe8628e9471ae5f962d112775073c1ae3924ccbc49d6c149c90f8c168a233._RI_.jpg);
     background-size: 1700px;
@@ -73,104 +32,9 @@ a{
     padding-top: 70px;
 }
 
-#prepodi{
-    width: 100%;
-}
-
-.f{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-shrink: 1;
-    flex-grow: 1;
-    padding: 0 150px;
-    gap: 15px;
-}
-
-.f div{
-    flex: 1 1 0;
-}
 
 .r{
     color: black;
-}
-
-.foto{
-    background: url(https://stihi.ru/pics/2014/07/21/4062.jpg);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    background-position: center;
-}
-
-.fotot{
-    background: url(http://images6.fanpop.com/image/photos/37100000/Pianist-Reuel-music-37134810-2731-2551.jpg);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    background-position: center;
-}
-
-.fotothr{
-    background: url(https://freetraining.americanpostureinstitute.com/wp-content/uploads/2016/11/shutterstock_360322883.jpg);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    background-position: center;
-}
-
-.fotof{
-    background: url(https://tallypress.com/wp-content/uploads/2017/12/top-3-venues-kl-every-music-lover-visit-christmas.jpg);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    background-position: center;
-}
-
-.fotofi{
-    background: url(https://kartinkin.net/uploads/posts/2021-03/1616070364_54-p-fleita-krasivie-foto-58.jpg);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    background-position: center;
-}
-
-.watch{
-    text-align: right;
-}
-
-#footer{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 200px;
-}
-
-.t{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    min-width: 70%;
-}
-
-.end{
-    padding-top: 100px;
-}
-
-.teacher, .student, .about{
-    padding-top: 40px;
-}
-
-.about{
-    max-width: 23%;
 }
 
 #ret{

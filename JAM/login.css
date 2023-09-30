@@ -2,33 +2,12 @@ body{
     margin: 0;
 }
 
-#header{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100px;
-    color: white;
-    background-color: black;
-}
-
 #jam{
     display: flex;
     margin-left: 25px;
     width: 150px;
 }
 
-.j{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-.three{
-    display: flex;
-    justify-content: space-between;
-    min-width: 200px;
-    margin-right: 25px;
-}
 
 ul{
     display: flex;
@@ -38,100 +17,23 @@ ul{
     align-items: center;
 }
 
-a{
-    color: black;
-    text-decoration: none;
-}
-
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://gagaru.club/uploads/posts/2023-05/1685380561_gagaru-club-p-risunki-tsoya-krasivo-5.jpg);
     background-size: 800px;
-}
-
-.link{
-    color: black;
-    text-decoration: none;
-}
-
-.link:hover{
-    color:blue;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.login-form{
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Sansita Swashed', cursive;
-    width: 500px;
-    height: 500px;
-    margin-top: 90px;
+    height: 800px;
 }
 
 input{
     width: 250px;
     height: 25px;
     border-radius: 25px;
+    opacity: 40%;
     background: transparent;
     border: none;
     border-bottom: 1px solid #444;
-}
-
-button{
-    border-radius: 35px;
-    border: none;
-    background: transparent;
-    border-bottom: 3px solid #787878;
-}
-
-.buttono{
-    background: transparent;
-    border-bottom: 3px solid #787878;
-    width: 250px;
-    height: 45px;
-}
-
-button:hover{
-    cursor: pointer;
-}
-
-.buttont{
-    background-color: none;
-    width: 50%;
-    height: 30px;
-}
-
-#footer{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 200px;
-}
-
-.t{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    min-width: 70%;
-}
-
-.end{
-    padding-top: 100px;
-}
-
-.teacher, .student, .about{
-    padding-top: 40px;
-}
-
-.about{
-    max-width: 23%;
 }
 
 a{
