@@ -2,6 +2,14 @@ body{
     margin: 0;
 }
 
+#r{
+    margin-left: 50px;
+}
+
+#navbarSupportedContent{
+    margin-left: 20px;
+}
+
 #first{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8babe8628e9471ae5f962d112775073c1ae3924ccbc49d6c149c90f8c168a233._RI_.jpg);
     background-size: 1700px;

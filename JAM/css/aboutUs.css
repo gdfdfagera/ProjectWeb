@@ -2,42 +2,25 @@ body{
     margin: 0;
 }
 
-#header{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100px;
-    position:absolute;
-    color: white;
-}
-
 #jam{
     display: flex;
     margin-left: 25px;
     width: 150px;
+    height: 50px;
 }
 
 .j{
     display: flex;
     justify-content: center;
     align-items: center;
-} 
-
-
-.three{
-    display: flex;
-    justify-content: space-between;
-    min-width: 200px;
-    margin-right: 25px;
+    width: 150px;
+    background: url(/JAM/img/Black.svg);
+    background-size: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style-type: none;
-    align-items: center;
-}
+
 
 a{
     color: white;
@@ -57,17 +40,6 @@ a{
     align-items: center;
 }
 
-#us{
-    width: 100%;
-    height: 1500px;
-}
-
-.center{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 500px;
-}
 
 .Disa{
     width: 100%;
@@ -103,36 +75,3 @@ a{
     background-position: center;
 }
 
-.aboutMe{
-    width: 40%;
-}
-
-
-#footer{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 200px;
-}
-
-.t{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    min-width: 70%;
-}
-
-.end{
-    padding-top: 100px;
-}
-
-.teacher, .student, .about{
-    padding-top: 40px;
-}
-
-.about{
-    max-width: 23%;
-}

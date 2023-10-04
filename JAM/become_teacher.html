@@ -5,25 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/607fa59962.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/become.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/become.css">
 </head>
 <body>
-    <div id="header">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
         <div id="jam">
-            <div id="jam">
-                <div class="j">
-                    
-                </div>
+            <div class="j">
+                
             </div>
         </div>
-        <div class="three">
-            <ul>
-                <li><a href="index.html">Main</a></li>
-                <li><a href="teacher.html">Teachers</a></li>
-                <li><a href="login.html">Login</a></li>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="teachers.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Teachers
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="teachers.html">All Teachers</a></li>
+              <li><a class="dropdown-item" href="become_teacher.html">Become Teacher</a></li>
             </ul>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
 
 
     <div id="main">
@@ -32,91 +57,67 @@
 
     </div>
 
-    <div id="inst">
-        <div class="ogr">
-            <div class="choose">
-                <h1>Choose the tool that you will teach</h1>
-            </div>
-            <div class="ex">
-                <div class="g">
-                    Guitar
-                </div>
-                <div class="p">
-                    Piano
-                </div>
-                <div class="v">
-                    Vocal
-                </div>
-                <div class="u">
-                    Ukelele
-                </div>
-            </div>
+    <div id="napravlenie" class="my-5">
+        <div class="direct">
+            <p><h1>Choose your direction</h1></p>
+        </div>
+        <div id="ins">
+            <div class="instrumentg">guitar</div>
+            <div class="instrumentp">piano</div>
+            <div class="instrumentv">vocals</div>
+            <div class="instrumentu">ukulele</div>
         </div>
     </div>
 
-    <div id="how">
-        <div class="kak">
-            <h1>How to become a teacher</h1>
-        </div>
+    <div class="container px-4 py-5" id="hanging-icons">
 
-        <div class="way">
-            <div class="w">
-                <div class="zay">
-                    <i class="fa-solid fa-music fa-4x"></i>
-                    <p>Application</p>
-                    <p>Fill in the information about yourself and click "Become a teacher"</p>
-                </div>
-                <div class="i">
-                    <i class="fa-solid fa-arrow-right fa-4x"></i>
-                </div>
-                <div class="zay">
-                    <i class="fa-solid fa-person fa-4x"></i>
-                    <p>Manager</p>
-                    <p>Our manager will review your application and contact you</p>
-                </div>
-                <div class="i">
-                    <i class="fa-solid fa-arrow-right fa-4x"></i>
-                </div>
-                <div class="zay">
-                    <i class="fa-solid fa-circle-play fa-4x"></i>
-                    <p>Placement of the questionnaire</p>
-                    <p>After moderation, your profile will be posted on the website</p>
-                </div>
-                <div class="i">
-                    <i class="fa-solid fa-arrow-right fa-4x"></i>
-                </div>
-                <div class="zay">
-                    <i class="fa-solid fa-guitar fa-4x"></i>
-                    <p>Lessons</p>
-                    <p>Now you can study with your students</p>
-                </div>
+        <h2 class="pb-2 border-bottom">How to become a teacher</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-6" id="forflex">
+          <div class="col d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-solid fa-music fa-4x my-3"></i>
+                <h5 class="fs-4">Application</h5>
+                <p>Fill in the information about yourself and click "Become a teacher"</p>
             </div>
+          </div>
+          <i class="fa-solid fa-arrow-right fa-4x"></i>
+          <div class="col d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-solid fa-person fa-4x my-3"></i>    
+                <h5 class="fs-4">Manager</h5>
+                <p>Our manager will review your application and contact you</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right fa-4x"></i>
+          <div class="col d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-solid fa-circle-play fa-4x my-3"></i>
+                <h5 class="fs-4">Placement of the questionnaire</h5>
+                <p>After moderation, your profile will be posted on the website</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right fa-4x"></i>
+          <div class="col d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-solid fa-guitar fa-4x my-3"></i>
+                <h5 class="fs-4">Lessons</h5>
+                <p>Now you can study with your students</p>
+            </div>
+          </div>
         </div>
-        
-        <div class="but">
-            <button>Fill out the teacher's questionnaire</button>
+        <div class="col d-flex align-items-center justify-content-center">
+          <button class="btn btn-outline-secondary" type="button">Fill out the teacher's questionnaire</button>
         </div>
-    </div>
+      </div>
 
-    <div id="footer">
-        <div class="t">
-            <div class="end">JAM</div>
-            <div class="teacher">
-                <p><strong>For Teachers</strong></p>
-                <p><a href="become.html">If you wanna a job</a></p>
-            </div>
-            <div class="student">
-                <p><strong>Student</strong></p>
-                <p>Our Teachers</p>
-                <p>Certificate</p>
-            </div>
-            <div class="about">
-                <p><strong><a href="aboutUs.html">About us</a></strong></p>
-                <p>Service rules</p>
-                <p>Privacy Policy</p>
-                <p>Agreement on the processing of personal data</p>
-            </div>
-        </div>
-    </div>
+    <footer class="my-4" style="background-color: black;">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+        </ul>
+        <p class="text-center text-light">© 2023 Company, Inc</p>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
