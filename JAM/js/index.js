@@ -8,3 +8,13 @@ document.querySelector("#why_but").onclick = function fun(){
         content.style.display = 'none';
     }
 }
+
+
+const arr = ["Features", "Pricing", "FAQs"];
+let d = "type1";
+
+for (let i = 0; i < 3; i++){
+    document.getElementById(d).innerHTML = arr[i];
+    d = d.substring(0, 4) + (i+2).toString();
+    console.log(d);
+}
