@@ -62,14 +62,34 @@ a{
 }
 
 #ins{
+    margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
+    text-align: center;
 }
 
-.instrumentg, .instrumentp, .instrumentd, .instrumentf, .instrumento, .instrumentv, .instrumentu{
+#text{
+    position: absolute;
+    color: rgb(159, 155, 155);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#sliderImage{
+    width: 700px;
+    filter: brightness(40%);
+}
+
+
+
+/* .instrumentg, .instrumentp, .instrumentd, .instrumentf, .instrumento, .instrumentv, .instrumentu{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,6 +100,8 @@ a{
     background-position: center center;
     border-radius: 25px;
 }
+
+
 
 .instrumentp{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://s8.hostingkartinok.com/uploads/images/2018/09/66ee2632b62f5d628b98925ecc1b163f.jpg);
@@ -121,7 +143,7 @@ a{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://akkordeon-shop.ru/upload/catalog/ru/weltmeister-s4.jpg);
     background-size: 450px;
     background-repeat: no-repeat;
-}
+} */
 
 .i{
     width: 100px;

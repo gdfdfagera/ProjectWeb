@@ -6,7 +6,8 @@
     <title>Document</title>
     <script src="https://kit.fontawesome.com/607fa59962.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-   <link rel="stylesheet" href="css/become.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/become.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -62,10 +63,16 @@
             <p><h1>Choose your direction</h1></p>
         </div>
         <div id="ins">
-            <div class="instrumentg">guitar</div>
-            <div class="instrumentp">piano</div>
-            <div class="instrumentv">vocals</div>
-            <div class="instrumentu">ukulele</div>
+            <button id="prev">
+              <i class="bi bi-caret-left-fill"></i>
+            </button>
+            <div class="instrument">
+              <img id="sliderImage" src="https://s8.hostingkartinok.com/uploads/images/2018/09/66ee2632b62f5d628b98925ecc1b163f.jpg" alt="">
+              <p id="text">Piano</p>
+            </div>
+            <button id="next">
+              <i class="bi bi-caret-right-fill"></i>
+            </button>
         </div>
     </div>
 
@@ -119,5 +126,6 @@
         <p class="text-center text-light">© 2023 Company, Inc</p>
     </footer>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script src="js/become.js"></script>
+  </body>
 </html>

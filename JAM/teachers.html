@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/teacher.css">
 </head>
 <body>
@@ -14,13 +15,13 @@
           <a class="navbar-brand" href="#" id="r">
                 <strong>JAM</strong>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="but">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="teachers.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,7 +41,7 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit"  id="but">Search</button>
             </form>
           </div>
         </div>
@@ -54,7 +55,7 @@
                 <p>Free trial lesson</p>
                 <p>Every new visitor can have 3 free lessons on any instrument</p>
             </div>
-            <div class="try"><button>Go to the list of teachers</button></div>
+            <div class="try"><button  id="but">Go to the list of teachers</button></div>
         </div>
     </div>
 
@@ -62,71 +63,101 @@
     <div class="card" style="width: 300px;">
         <img src="https://stihi.ru/pics/2014/07/21/4062.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Sarah Reynolds</h5>
+          <h5 class="card-title name">Sarah Reynolds</h5>
           <p class="card-text">About me:  With over 15 years of experience as a professional violinist, I am excited to share my passion for the violin with aspiring musicians. I have performed with renowned orchestras and have a deep love for classical and contemporary music. My teaching style focuses on building strong fundamentals and nurturing a love for music in every student.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Instrument: Guitar</li>
         </ul>
         <div class="card-body" id="ret">
-          <a href="#" class="card-link"><button class="r">Watch videos and diplomas</button></a>
+          <a href="#" class="card-link"><button class="r" id="but">Watch videos and diplomas</button></a>
         </div>
+        <button style="background-color: white; border: none; border-top: solid black 1px;" id="first_but">
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; text-align: center;">
+            <p ><i class="bi bi-heart" id="sarah"></i></p>
+            <p id="num1">0</p>
+          </div>
+        </button>
       </div>
 
       <div class="card" style="width: 300px;">
         <img src="https://static.guim.co.uk/sys-images/Arts/Arts_/Pictures/2015/2/19/1424349080734/Boris-Giltburg-009.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Michael Davis</h5>
+          <h5 class="card-title name">Michael Davis</h5>
           <p class="card-text">About me: With a degree in piano performance and a passion for teaching, I strive to instill a lifelong love for the piano in my students. My teaching philosophy emphasizes both classical and contemporary styles, tailored to each student's goals. I create a nurturing and inspiring environment for students to explore their musical potential.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Instrument: Piano</li>
         </ul>
         <div class="card-body" id="ret">
-          <a href="#" class="card-link"><button class="r">Watch videos and diplomas</button></a>
+          <a href="#" class="card-link"><button class="r"  id="but">Watch videos and diplomas</button></a>
         </div>
+        <button style="background-color: white; border: none; border-top: solid black 1px;" id="second_but">
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; text-align: center;">
+            <p ><i class="bi bi-heart" id="sarah"></i></p>
+            <p id="num2">0</p>
+          </div>
+        </button>
       </div>
 
       <div class="card" style="width: 300px;">
         <img src="https://freetraining.americanpostureinstitute.com/wp-content/uploads/2016/11/shutterstock_360322883.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Emily Roberts</h5>
+          <h5 class="card-title name">Emily Roberts</h5>
           <p class="card-text">About me: With a degree in piano performance and a passion for teaching, I strive to instill a lifelong love for the piano in my students. My teaching philosophy emphasizes both classical and contemporary styles, tailored to each student's goals. I create a nurturing and inspiring environment for students to explore their musical potential.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Instrument: Voice</li>
         </ul>
         <div class="card-body" id="ret">
-          <a href="#" class="card-link"><button class="r">Watch videos and diplomas</button></a>
+          <a href="#" class="card-link"><button class="r"  id="but">Watch videos and diplomas</button></a>
         </div>
+        <button style="background-color: white; border: none; border-top: solid black 1px;" id="third_but">
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; text-align: center;">
+            <p ><i class="bi bi-heart" id="sarah"></i></p>
+            <p id="num3">0</p>
+          </div>
+        </button>
       </div>
 
       <div class="card" style="width: 300px;">
         <img src="https://tallypress.com/wp-content/uploads/2017/12/top-3-venues-kl-every-music-lover-visit-christmas.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">David Chen</h5>
+          <h5 class="card-title name">David Chen</h5>
           <p class="card-text">About me:  I am a professional drummer with extensive experience in various genres, from rock to jazz to Latin rhythms.  I have performed with renowned orchestras and have a deep love for classical and contemporary music. My teaching style focuses on technique, groove, and creativity, ensuring that drumming becomes a joyful. </p>    
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Instrument: Drums</li>
         </ul>
         <div class="card-body" id="ret">
-          <a href="#" class="card-link"><button class="r">Watch videos and diplomas</button></a>
+          <a href="#" class="card-link"><button class="r"  id="but">Watch videos and diplomas</button></a>
         </div>
+        <button style="background-color: white; border: none; border-top: solid black 1px;" id="fourth_but">
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; text-align: center;">
+            <p ><i class="bi bi-heart" id="sarah"></i></p>
+            <p id="num4">0</p>
+          </div>
+        </button>
       </div>
 
       <div class="card" style="width: 300px;">
         <img src="https://kartinkin.net/uploads/posts/2021-03/1616070364_54-p-fleita-krasivie-foto-58.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Lisa Thompson</h5>
+          <h5 class="card-title name">Lisa Thompson</h5>
           <p class="card-text">About me: With a background in vocal performance and a passion for helping students discover the beauty of their own voices, I specialize in vocal training. Whether you're a beginner or an aspiring vocalist, my goal is to nurture your unique sound, build vocal strength, and foster confidence. Singing is a journey of self-expression, and I'm here to guide you every step of the way.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Instrument: Voice</li>
         </ul>
         <div class="card-body" id="ret">
-          <a href="#" class="card-link"><button class="r">Watch videos and diplomas</button></a>
+          <a href="#" class="card-link"><button class="r"  id="but">Watch videos and diplomas</button></a>
         </div>
+        <button style="background-color: white; border: none; border-top: solid black 1px;" id="fifth_but">
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; text-align: center;">
+            <p ><i class="bi bi-heart" id="sarah"></i></p>
+            <p id="num5">0</p>
+          </div>
+        </button>
       </div>
     </main>
 
@@ -138,5 +169,7 @@
         </ul>
         <p class="text-center text-light">© 2023 Company, Inc</p>
     </footer>
+
+    <script src="js/teachers.js"></script>
 </body>
 </html>
