@@ -1,10 +1,10 @@
-let s = prompt("Verify that you are not a robot: My name is...");
-while (true){
-    if (s == "My name is..."){
-        break;
-    }
-    s = prompt("Verify that you are not a robot: My name is...");
-}
+// let s = prompt("Verify that you are not a robot: My name is...");
+// while (true){
+//     if (s == "My name is..."){
+//         break;
+//     }
+//     s = prompt("Verify that you are not a robot: My name is...");
+// }
 
 
 document.querySelector("#why_but").onclick = function fun(){

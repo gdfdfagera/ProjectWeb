@@ -38,8 +38,8 @@ body{
 
 .try{
     padding-top: 70px;
+    color: white;
 }
-
 
 .r{
     color: black;
@@ -57,6 +57,7 @@ body{
     border-radius: 40px;
     background: transparent;
     border-bottom: 2px solid #787878;
+    color: white
 }
 
 main{

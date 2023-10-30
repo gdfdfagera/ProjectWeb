@@ -82,6 +82,12 @@ a{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.culture.ru/images/319bcc77-dd02-5e4d-a6f5-8bade4d63bdd);
     background-size: 450px;
     background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.instrumentg:hover{
+    transition: 0.5s;
+    background-size: 550px;
 }
 
 .instrumentd{
