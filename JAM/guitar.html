@@ -56,7 +56,20 @@
                 </ul>
             </div>
             <div class="form">
-
+              <div class="y_name">
+                <label for="name"></label>
+                <input type="text" name="name" id="" placeholder="Enter your name">
+              </div>
+              <div class="type">
+                <p>Guitar</p>
+              </div>
+              <div class="number">
+                <label for="number"></label>
+                <input type="number" name="number" id="" placeholder="Enter your number">
+              </div>
+              <div id="buttno">
+                <button type="button" id="light">Light</button>
+              </div>
             </div>
         </div>
     </div>
@@ -170,13 +183,33 @@
     </div>
 
     <div id="students">
-      <div class="slider">
-        <div class="slide">Слайд 1</div>
-        <div class="slide">Слайд 2</div>
-        <div class="slide">Слайд 3</div>
+      <div class="s">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide1" onclick="fun1()">
+              <div class="description">
+                <b>Name Surname</b>
+                <p>Guitar lessons</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sit vel a laboriosam dicta ipsum dignissimos corporis placeat? Consequatur magnam sequi unde sed blanditiis vel recusandae, deserunt veritatis ab adipisci!</p>
+              </div>  
+            </div>
+            <div class="slide2" onclick="fun2()">
+              <div class="description">
+                <b>Name Surname</b>
+                <p>Guitar lessons</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sit vel a laboriosam dicta ipsum dignissimos corporis placeat? Consequatur magnam sequi unde sed blanditiis vel recusandae, deserunt veritatis ab adipisci!</p>
+              </div>  
+            </div>
+            <div class="slide3" onclick="fun3()">
+              <div class="description">
+                <b>Name Surname</b>
+                <p>Guitar lessons</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sit vel a laboriosam dicta ipsum dignissimos corporis placeat? Consequatur magnam sequi unde sed blanditiis vel recusandae, deserunt veritatis ab adipisci!</p>
+              </div>  
+            </div>
+          </div>
+        </div>
       </div>
-      <button id="prev">Предыдущий</button>
-      <button id="next">Следующий</button>
     </div>
 
 
