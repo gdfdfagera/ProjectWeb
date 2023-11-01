@@ -51,13 +51,22 @@ body{
     align-items: center;
 }
 
-#but{
+#but1{
     max-width: 250px;
     height: 50px;
     border-radius: 40px;
     background: transparent;
     border-bottom: 2px solid #787878;
     color: white
+}
+
+#but{
+    max-width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    background: transparent;
+    border-bottom: 2px solid #787878;
+    color: black;
 }
 
 main{
