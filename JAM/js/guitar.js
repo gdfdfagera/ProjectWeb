@@ -14,6 +14,23 @@ function fun3(){
 }
 
 
+
+function fullscreenDiv(){
+  const place = document.getElementById('place');
+  place.style.display = "none";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv');
+  fullscreenDiv.style.display = "flex";
+}
+
+function exit(){
+  const place = document.getElementById('place');
+  place.style.display = "block";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv');
+  fullscreenDiv.style.display = "none";
+}
+
 // function fullscreen(){
 //   const fullscreenDiv = document.createElement("div");
 

@@ -291,3 +291,42 @@ p{
 .description b{
     font-size: calc(1rem + 1vw);
 }
+
+
+
+
+
+#fullscreenDiv{
+    width: 100%;
+    display: none;
+    justify-content: center;
+}
+
+.width{
+    width: 60%;
+}
+
+.picture{
+    width: 100%;
+}
+
+.picture_advise{
+    width: 100%;
+}
+
+.exit{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.exit button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
