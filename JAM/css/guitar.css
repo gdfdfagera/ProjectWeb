@@ -330,3 +330,9 @@ p{
     justify-content: center;
     align-items: center;
 }
+
+#fullscreenDiv2, #fullscreenDiv3, #fullscreenDiv4{
+    width: 100%;
+    display: none;
+    justify-content: center;
+}

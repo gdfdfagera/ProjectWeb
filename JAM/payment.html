@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/payment.css">
+</head>
+<body>
+    <div class="info">
+        <div class="nameSurname">
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="surname">
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" id="surname">
+            </div>
+        </div>
+        <label for="instrument">Choose your instrument:</label> 
+        <select name="instrument" id="instrument"> 
+            <option value="f_ins">Vocal</option> 
+            <option value="s_ins">Guitar</option> 
+            <option value="t_ins">Piano</option> 
+            <option value="fourth_ins">Ukulele</option>
+            <option value="fifth_ins">Flute</option> 
+            <option value="six_ins">Drums</option> 
+        </select>
+        <label for="instrument">Choose teacher:</label> 
+        <select name="instrument" id="instrument"> 
+            <option value="f_t">Vocal</option> 
+            <option value="s_t">Guitar</option> 
+            <option value="t_t">Piano</option> 
+            <option value="fourth_t">Ukulele</option>
+            <option value="fifth_t">Flute</option> 
+            <option value="six_t">Drums</option> 
+        </select>
+
+        <div class="payment">
+            <div class="pay_details">
+                <h3>Payment details</h3>
+            </div>
+            <div class="requisites">
+                <div class="type_number">
+                    <div class="type">
+                        <b>Card type</b>
+                        <label for="type"></label>
+                        <select name="type" id="type"> 
+                            <option value="f_t">Vocal</option> 
+                            <option value="s_t">Guitar</option> 
+                            <option value="t_t">Piano</option> 
+                            <option value="fourth_t">Ukulele</option>
+                            <option value="fifth_t">Flute</option> 
+                            <option value="six_t">Drums</option> 
+                        </select>
+                    </div>
+                    <div class="number_c">
+                        <b>Card number</b>
+                        <label for="number_card"></label>
+                        <input type="text" name="number_card" id="number_card">
+                    </div>
+                </div>
+                <div class="date">
+                    <div class="month">
+                        <b>Expiry date</b>
+                        <label for="month_c"></label>
+                        <input type="text" name="month_c" id="month_c">
+                    </div>
+                    <div class="year">
+                        <label for="year_c"></label>
+                        <input type="text" name="year_c" id="year_c">
+                    </div>
+                </div>
+                <div class="card_mail">
+                    <div class="c_holder">
+                        <b>Card holder</b>
+                        <label for="holder"></label>
+                        <input type="text" name="holder" id="holder">
+                    </div>
+                    <div class="mail">
+                        <label for="email"></label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                </div>
+                <div class="but">
+                    <button>Pay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

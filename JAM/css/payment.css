@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment{
+    width: 50%;
+    height: 500px;
+}
+
+.pay_details{
+    width: 100%;
+    height: 25%;
+    background-color: grey;
+}
+
+.requisites{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+    background-color: green;
+}
+
+.type_number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 60%;
+}
+
+.type select{
+    width: 100%;
+    height: 60%;
+}
+
+.number_c{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 60%;
+}
+
+#number_card{
+    width: 100%;
+    height: 53%;
+}
+
+.date{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 25%;
+}
+
+.month{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 60%;
+}
+
+#month_c{
+    width: 100%;
+    height: 53%;
+}
+
+.year{
+    display: flex;
+    align-items: end;
+    width: 35%;
+    height: 60%;
+}
+
+#year_c{
+    width: 100%;
+    height: 53%;
+}
+
+.card_mail{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 25%;
+}
+
+.c_holder{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 60%;
+}
+
+#holder{
+    width: 100%;
+    height: 53%;
+}
+
+.mail{
+    display: flex;
+    align-items: end;
+    width: 35%;
+    height: 60%;
+}
+
+#email{
+    width: 100%;
+    height: 53%;
+}

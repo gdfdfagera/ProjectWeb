@@ -31,6 +31,54 @@ function exit(){
   fullscreenDiv.style.display = "none";
 }
 
+function fullscreenDiv2(){
+  const place = document.getElementById('place');
+  place.style.display = "none";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv2');
+  fullscreenDiv.style.display = "flex";
+}
+
+function exit2(){
+  const place = document.getElementById('place');
+  place.style.display = "block";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv2');
+  fullscreenDiv.style.display = "none";
+}
+
+function fullscreenDiv3(){
+  const place = document.getElementById('place');
+  place.style.display = "none";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv3');
+  fullscreenDiv.style.display = "flex";
+}
+
+function exit3(){
+  const place = document.getElementById('place');
+  place.style.display = "block";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv3');
+  fullscreenDiv.style.display = "none";
+}
+
+function fullscreenDiv4(){
+  const place = document.getElementById('place');
+  place.style.display = "none";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv4');
+  fullscreenDiv.style.display = "flex";
+}
+
+function exit4(){
+  const place = document.getElementById('place');
+  place.style.display = "block";
+
+  const fullscreenDiv = document.getElementById('fullscreenDiv4');
+  fullscreenDiv.style.display = "none";
+}
+
 // function fullscreen(){
 //   const fullscreenDiv = document.createElement("div");
 
