@@ -83,6 +83,11 @@ a{
     background-repeat: no-repeat;
 }
 
+.instrumentp:hover{
+    transition: 0.5s;
+    background-size: 650px;
+}
+
 .instrumentg{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.culture.ru/images/319bcc77-dd02-5e4d-a6f5-8bade4d63bdd);
     background-size: 450px;
@@ -101,10 +106,20 @@ a{
     background-repeat: no-repeat;
 }
 
+.instrumentd:hover{
+    transition: 0.5s;
+    background-size: 550px;
+}
+
 .instrumentf{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.lessonface.com/sites/default/files/user-files/1649/person-playing-wind-instrument-2254140.jpg);
     background-size: 450px;
     background-repeat: no-repeat;
+}
+
+.instrumentf:hover{
+    transition: 0.5s;
+    background-size: 550px;
 }
 
 .instrumentu{
@@ -113,16 +128,31 @@ a{
     background-repeat: no-repeat;
 }
 
+.instrumentu:hover{
+    transition: 0.5s;
+    background-size: 500px;
+}
+
 .instrumentv{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://i.pinimg.com/originals/42/1e/1a/421e1aa5714df25483ea6e0603b7bd75.jpg);
     background-size: 500px;
     background-repeat: no-repeat;
 }
 
+.instrumentv:hover{
+    transition: 0.5s;
+    background-size: 600px;
+}
+
 .instrumento{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://akkordeon-shop.ru/upload/catalog/ru/weltmeister-s4.jpg);
     background-size: 450px;
     background-repeat: no-repeat;
+}
+
+.instrumento:hover{
+    transition: 0.5s;
+    background-size: 550px;
 }
 
 

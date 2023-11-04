@@ -27,3 +27,9 @@ for (let i = 0; i < 3; i++){
     d = d.substring(0, 4) + (i+2).toString();
     console.log(d);
 }
+
+document.addEventListener('keydown', function(e) {
+    if (e.keyCode == 65) {
+      document.getElementById('audio').play();
+    }
+  });
