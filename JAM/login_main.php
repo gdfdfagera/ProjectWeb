@@ -44,18 +44,19 @@
       </nav>
 
     <div class="main">
+      <form action="login.php" method="post">
         <div class="d-flex flex-column" style="gap: 15px;">
             <div class="col-md-12 col-sm-10 d-flex justify-content-center" style="color: white;">
               <h1>Sign in</h1>
             </div>
             <div class="col-md-12 col-sm-10">
-              <input type="email" class="form-control" placeholder="Email" aria-label="First name" id="email">
+              <input type="email" class="form-control" placeholder="Email" aria-label="First name" id="email" name="email">
             </div>
             <div class="col-md-12 col-sm-10">
-              <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass">
+              <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass" name="password">
             </div>
             <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="button" class="btn btn-outline-success" onclick="fun()">Sign in</button>
+                <button type="submit" class="btn btn-outline-success" onclick="fun()">Sign in</button>
             </div>
 
             <div class="col-md-12 col-sm-10 d-flex justify-content-center" style="font-size: 20px; color: white;">
@@ -63,9 +64,10 @@
             </div>
 
             <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="button" class="btn btn-outline-light"><a href="registration.html">Sign up</a></button>
+                <button type="submit" class="btn btn-outline-light"><a href="registration.php">Sign up</a></button>
             </div>
         </div>
+      </form>
     </div>
 
     <footer class="my-4" style="background-color: black;">

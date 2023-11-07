@@ -37,7 +37,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+                <a class="nav-link" href="login_main.php">Login</a>
               </li>
             </ul>
           </div>
@@ -47,27 +47,28 @@
 
 
     <div class="main"> 
-
-        <div class="d-flex flex-column" style="gap: 15px; color: white;">
-            <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <h1>Sign up</h1>
-            </div>
-            <div class="col-md-12 col-sm-10">
-              <input type="text" class="form-control" placeholder="Username" aria-label="First name" id="name">
-            </div>
-            <div class="col-md-12 col-sm-10">
-              <input type="text" class="form-control" placeholder="Surname" aria-label="Last name" id="lname">
-            </div>
-            <div class="col-md-12 col-sm-10">
-                <input type="email" class="form-control" placeholder="Email" aria-label="Last name" id="email">
-            </div>
-            <div class="col-md-12 col-sm-10">
-                <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass">
-            </div>
-            <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="button" class="btn btn-outline-light" id="signup_but">Sign up</button>
-            </div>
-        </div>
+      <form action="register.php" method = "post">
+          <div action = "register.php" method = "post" class="d-flex flex-column" style="gap: 15px; color: white;">
+              <div class="col-md-12 col-sm-10 d-flex justify-content-center">
+                  <h1>Sign up</h1>
+              </div>
+              <div class="col-md-12 col-sm-10">
+                <input type="text" class="form-control" placeholder="Username" aria-label="First name" id="name" name="username">
+              </div>
+              <div class="col-md-12 col-sm-10">
+                <input type="text" class="form-control" placeholder="Surname" aria-label="Last name" id="lname" name="surname">
+              </div>
+              <div class="col-md-12 col-sm-10">
+                  <input type="email" class="form-control" placeholder="Email" aria-label="Last name" id="email" name="email">
+              </div>
+              <div class="col-md-12 col-sm-10">
+                  <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass" name="password">
+              </div>
+              <div class="col-md-12 col-sm-10 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-outline-light" id="signup_but">Sign up</button>
+              </div>
+          </div>
+      </form>
     </div>
 
     <footer class="my-4" style="background-color: black;">

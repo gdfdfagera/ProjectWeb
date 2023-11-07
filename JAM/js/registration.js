@@ -23,6 +23,5 @@ document.querySelector('#signup_but').onclick = function fun(){
         return false;
     }
 
-    alert("Nice, you have registered");
     return true;
 };
