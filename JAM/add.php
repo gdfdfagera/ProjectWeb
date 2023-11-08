@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Admin Dashboard</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="css/dashboard.css">
-
+    <meta charset="UTF-8">
+    <title>CodePen - Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/add.css">
 </head>
 <body>
 <div class="admin">
@@ -23,13 +22,13 @@
         <ul class="menu">
             <li class="menu__title">Network</li>
             <li class="menu__item">
-                <a class="menu__link is-active" href="#">Users</a>
+                <a class="menu__link" href="dashboard_main.php">Users</a>
             </li>
             <li class="menu__item">
                 <a class="menu__link" href="change_user.php">Change the users</a>
             </li>
             <li class="menu__item">
-                <a class="menu__link" href="add.php">Add Users</a>
+                <a class="menu__link is-active" href="#">Add Users</a>
             </li>
         </ul>
     </nav>
@@ -85,21 +84,10 @@
 
 
 
-<script src="js/dashboard.js"></script>
+<script src="js/add.js"></script>
 
 <?php
-
-require_once('php/db.php');
-
-$sql = "SELECT * FROM `Users`";
-$result = $conn->query($sql);
-if ($result->num_rows > 0){
-    while ($row = $result->fetch_assoc()){
-        // echo "{$row['Id']}, {$row[Username]}, {$row[Surname]}, {$row[email]}, {$row[password]}";
-        // echo "<script>createNewUser($row[Id], $row[Username], $row[Surname], $row[email], $row[password]);</script>";
-        echo "<script>createNewUser('{$row['id']}', '{$row['Username']}', '{$row['Surname']}', '{$row['email']}', '{$row['password']}');</script>";
-    }
-}
+require 'php/adding.php';
 ?>
 
 

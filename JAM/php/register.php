@@ -25,7 +25,7 @@ if ($result->num_rows > 0){
         <body style='width: 100%; height: 600px; display:flex; justify-content:center; align-items:center;'>
             <div style = 'text-align:center;'>
                 <p>User with this email is already register!</p>
-                <a href='login_main.php'><button>Sign in</button></a>
+                <a href='/JAM/login_main.php'><button>Sign in</button></a>
             </div>
         </body>
     </html>
@@ -47,7 +47,7 @@ if ($conn -> query($sql) == TRUE){
         <body style='width: 100%; height: 600px; display:flex; justify-content:center; align-items:center;'>
             <div style = 'text-align:center;'>
                 <p>Press the button to sign in</p>
-                <a href='login_main.php'><button>Sign in</button></a>
+                <a href='/JAM/login_main.php'><button>Sign in</button></a>
             </div>
         </body>
     </html>";

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+#jam{
+    display: flex;
+    margin-left: 25px;
+    width: 150px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://gagaru.club/uploads/posts/2023-05/1685380561_gagaru-club-p-risunki-tsoya-krasivo-5.jpg);
+    background-size: 800px;
+    height: 800px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 25px;
+    opacity: 40%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

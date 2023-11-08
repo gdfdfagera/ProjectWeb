@@ -47,7 +47,7 @@
 
 
     <div class="main"> 
-      <form action="register.php" method = "post">
+      <form action="php/register.php" method = "post">
           <div action = "register.php" method = "post" class="d-flex flex-column" style="gap: 15px; color: white;">
               <div class="col-md-12 col-sm-10 d-flex justify-content-center">
                   <h1>Sign up</h1>

@@ -1,4 +1,4 @@
-function createNewUser(id, user, sur, email, pass){
+function createNewUser(){
     var dash = document.createElement("div");
     var card = document.createElement("div");
     var part1 = document.createElement("div");
@@ -32,20 +32,13 @@ function createNewUser(id, user, sur, email, pass){
     inp4.name = "email";
     inp5.name = "password";
 
-    inp1.value = id;
-    concr1.textContent = id;
-    inp2.value = user;
-    inp3.value = sur;
-    inp4.value = email;
-    inp5.value = pass;
-
-    form.action = "/JAM/php/change2.php"
+    form.action = "php/adding_form.php";
     form.method = "post";
     submit.type = "submit";
     
     concr1.id = "concrt";
     update.className = "update";
-    submit.textContent = "Update";
+    submit.textContent = "Create";
 
     dash.className = "dashboard__item dashboard__item--full";
     card.className = "card";

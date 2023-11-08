@@ -44,7 +44,7 @@
       </nav>
 
     <div class="main">
-      <form action="php/login.php" method="post">
+      <form action="php/ad.php" method="post">
         <div class="d-flex flex-column" style="gap: 15px;">
             <div class="col-md-12 col-sm-10 d-flex justify-content-center" style="color: white;">
               <h1>Sign in</h1>
@@ -52,22 +52,11 @@
             <div class="col-md-12 col-sm-10">
               <input type="email" class="form-control" placeholder="Email" aria-label="First name" id="email" name="email">
             </div>
-            <div class="col-md-12 col-sm-10">
+            <div class="col-md-12 col-sm-10" id="passw">
               <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass" name="password">
             </div>
             <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="submit" class="btn btn-outline-success" onclick="fun()">Sign in</button>
-            </div>
-
-            <div class="col-md-12 col-sm-10 d-flex justify-content-center" style="font-size: 20px; color: white;">
-                <p>Or</p>
-            </div>
-
-            <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="submit" class="btn btn-outline-light"><a href="registration.php">Sign up</a></button>
-            </div>
-            <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="submit" class="btn btn-outline-light"><a href="admin.php">Sign in as Administrator</a></button>
+                <button type="submit" class="btn btn-outline-success">Sign in</button>
             </div>
         </div>
       </form>
@@ -82,6 +71,7 @@
         <p class="text-center text-light">© 2023 Company, Inc</p>
     </footer>
 
-    <script src="js/login.js"></script>
+    <script src="js/admin.js"></script>
+
 </body>
 </html>

@@ -28,3 +28,29 @@
 //         document.getElementById('pass').value = "";
 //     }
 // }
+
+// function deleteData() {
+//     document.getElementById("wrong").style.display = "none";
+// }
+
+// function wrongData(){
+//     var div = document.createElement("div");
+//     var p = document.createElement("p");
+//     div.id = "wrong";
+//     div.style.width = "90%";
+//     div.style.border = "solid red 2px";
+//     div.style.borderRadius = "30px";
+//     div.style.display = "flex";
+//     div.style.justifyContent = "center";
+//     div.style.alignItems = "center";
+//     div.style.textAlign = "center";
+//     div.style.marginTop = "10px";
+//     p.textContent = "You enter wrong password or email";
+//     p.style.paddingTop = "0";
+//     p.style.margin = "0";
+
+
+
+//     document.getElementById("passw").appendChild(div);
+//     div.appendChild(p);
+// }

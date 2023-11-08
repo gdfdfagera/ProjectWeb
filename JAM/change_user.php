@@ -14,7 +14,7 @@
         </a>
         <div class="toolbar">
             <div class="toolbar__right">
-              <a href="#" class="btn btn--primary logout">Log Out</a>
+              <a href="/JAM/index.html" class="btn btn--primary logout">Log Out</a>
             </div>
         </div>
     </header>
@@ -26,6 +26,9 @@
             </li>
             <li class="menu__item">
                 <a class="menu__link is-active" href="#">Change the users</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="add.php">Add Users</a>
             </li>
         </ul>
     </nav>
@@ -87,7 +90,7 @@
 
 <script src="js/change.js"></script>
 
-<?php require 'change.php';
+<?php require 'php/change.php';
 ?>
 
 
