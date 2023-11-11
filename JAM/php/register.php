@@ -7,9 +7,7 @@ $surname = $_POST['surname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-// if(empty($login) || empty($surname) || empty($email) || empty($password)){
-//     echo "Fill in all the fields";
-// }
+
 
 $sql = "SELECT `email` FROM `Users` WHERE email = '$email'";
 $result = $conn->query($sql);

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Admin Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/delete.css">
+</head>
+<body>
+<div class="admin">
+    <header class="admin__header">
+        <a href="#" class="logo">
+            <h1>Dashboard</h1>
+        </a>
+        <div class="toolbar">
+            <div class="toolbar__right">
+              <a href="/JAM/index.html" class="btn btn--primary logout">Log Out</a>
+            </div>
+        </div>
+    </header>
+    <nav class="admin__nav">
+        <ul class="menu">
+            <li class="menu__title">Network</li>
+            <li class="menu__item">
+                <a class="menu__link" href="dashboard_main.php">Users</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="change_user.php">Change the users</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="add.php">Add Users</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link is-active" href="#">Delete Users</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <main class="admin__main">
+        <div class="dashboard" id="dash">
+            <!-- <div class="dashboard__item dashboard__item--full">
+                <div class="card">
+                    <div class="part">
+                        <p>Id</p>
+                        <div class="concr">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="part">
+                        <p>Username</p>
+                        <div class="concr">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="part">
+                        <p>Surname</p>
+                        <div class="concr">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="part">
+                        <p>Email</p>
+                        <div class="concr">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="part">
+                        <p>Password</p>
+                        <div class="concr">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="update">
+                    <button>Update</button>
+                </div>
+                <hr>
+            </div> -->
+        </div>
+    </main>
+
+
+
+    <footer class="admin__footer">
+        <span>&copy; 2018 Company Inc.</span>
+        <span><a href="#1" class="help">Ask for help</a></span>
+    </footer>
+</div>
+
+
+
+<script src="js/delete.js"></script>
+
+<?php require 'php/delete_code.php';
+?>
+
+
+</body>
+</html>

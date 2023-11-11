@@ -26,6 +26,9 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="basket.html">Online Lessons</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="teachers.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Teachers
@@ -36,7 +39,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="login_main.php">Login</a>
               </li>
             </ul>
           </div>
@@ -70,8 +73,6 @@
         </ul>
         <p class="text-center text-light">© 2023 Company, Inc</p>
     </footer>
-
-    <script src="js/admin.js"></script>
 
 </body>
 </html>
