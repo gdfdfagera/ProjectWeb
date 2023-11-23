@@ -69,9 +69,6 @@
             <div class="col-md-12 col-sm-10 d-flex justify-content-center">
                 <button type="submit" class="btn btn-outline-light"><a href="registration.php">Sign up</a></button>
             </div>
-            <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="submit" class="btn btn-outline-light"><a href="admin.php">Sign in as Administrator</a></button>
-            </div>
         </div>
       </form>
     </div>
