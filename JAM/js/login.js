@@ -1,56 +1,57 @@
-// var users = new Map([
-//     ["test@mail.ru", "12345678"],
-//     ["email@gmail.com", "123456789"]
-// ]);
+function validateFullName() {
+    const fullName = document.getElementById('full-name');
+    const fullNameError = document.getElementById('name_error');
+  
+    const nameWords = fullName.value.trim().split(' ');
+  
+    if (nameWords.length < 2) {
+      fullNameError.textContent = 'Please enter your full name';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
 
-// var totalInputs = 3;
-
-
-
-// function fun(){
-//     var userInputEmail = document.getElementById('email').value;
-//     var userInputPass = document.getElementById('pass').value;
+  function validateEmail() {
+    const fullName = document.getElementById('email').value;
+    const fullNameError = document.getElementById('email_error');
+  
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     
+    if (emailRegex.test(fullName)) {
+      fullNameError.textContent = 'Incorrect email';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
 
-//     if (users.get(userInputEmail) == userInputPass) {
-//         alert("You have signed in");
-//         return true;
-//     } else {
-//         totalInputs -= 1;
-//         if (totalInputs == 0) {
-//             alert("You have blocked, try later");
-//             document.getElementById('email').disabled = true;
-//             document.getElementById('pass').disabled = true;
-//             return false;
-//         }
-//         alert("Check your email or password");
-//         document.getElementById('email').value = "";
-//         document.getElementById('pass').value = "";
-//     }
-// }
+  function validatePassword() {
+    const fullName = document.getElementById('pass');
+    const fullNameError = document.getElementById('password_error');
+      
+    if (fullName.value.length < 8) {
+      fullNameError.textContent = 'minimum 8 symbols';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
 
-// function deleteData() {
-//     document.getElementById("wrong").style.display = "none";
-// }
+  function handle() {
 
-// function wrongData(){
-//     var div = document.createElement("div");
-//     var p = document.createElement("p");
-//     div.id = "wrong";
-//     div.style.width = "90%";
-//     div.style.border = "solid red 2px";
-//     div.style.borderRadius = "30px";
-//     div.style.display = "flex";
-//     div.style.justifyContent = "center";
-//     div.style.alignItems = "center";
-//     div.style.textAlign = "center";
-//     div.style.marginTop = "10px";
-//     p.textContent = "You enter wrong password or email";
-//     p.style.paddingTop = "0";
-//     p.style.margin = "0";
+    const em = validateEmail();
+    const pass = validatePassword();
 
+    if (!em && !pass) {
+        alert('incorrect data')
+    }
+  }
+  
+document.getElementById('pass').addEventListener('blur', validateEmail)
 
+document.getElementById('email').addEventListener('blur', validatePassword)
 
-//     document.getElementById("passw").appendChild(div);
-//     div.appendChild(p);
-// }

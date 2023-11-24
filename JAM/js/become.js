@@ -28,39 +28,3 @@ nextBut.addEventListener("click", function () {
     updateImg();
 });
 
-var mo1 = document.getElementById('mo1');
-var mo2 = document.getElementById('mo2');
-var mo3 = document.getElementById('mo3');
-var mo4 = document.getElementById('mo4');
-
-mo1.addEventListener("mouseover", function(event){
-    mo1.style.background = "red";
-});
-
-mo1.addEventListener("mouseout", function(event){
-    mo1.style.background = "white";
-});
-
-mo2.addEventListener("mouseover", function(event){
-    mo2.style.background = "red";
-});
-
-mo2.addEventListener("mouseout", function(event){
-    mo2.style.background = "white";
-});
-
-mo3.addEventListener("mouseover", function(event){
-    mo3.style.background = "red";
-});
-
-mo3.addEventListener("mouseout", function(event){
-    mo3.style.background = "white";
-});
-
-mo4.addEventListener("mouseover", function(event){
-    mo4.style.background = "red";
-});
-
-mo4.addEventListener("mouseout", function(event){
-    mo4.style.background = "white";
-});

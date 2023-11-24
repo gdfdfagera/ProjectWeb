@@ -19,6 +19,8 @@ if ($result->num_rows > 0){
     while ($row = $result->fetch_assoc()){
         echo "Welcome" . $row['Username'];
     }
+} else {
+    header('location:/JAM/login_main.php');
 }
 
 

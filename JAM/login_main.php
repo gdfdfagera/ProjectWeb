@@ -54,12 +54,14 @@
             </div>
             <div class="col-md-12 col-sm-10">
               <input type="email" class="form-control" placeholder="Email" aria-label="First name" id="email" name="email">
+              <span id="email_error" class="error"></span>
             </div>
             <div class="col-md-12 col-sm-10">
               <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass" name="password">
+              <span id="password_error" class="error"></span>
             </div>
             <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                <button type="submit" class="btn btn-outline-success" onclick="fun()">Sign in</button>
+                <button type="submit" class="btn btn-outline-success" onclick="handle()">Sign in</button>
             </div>
 
             <div class="col-md-12 col-sm-10 d-flex justify-content-center" style="font-size: 20px; color: white;">

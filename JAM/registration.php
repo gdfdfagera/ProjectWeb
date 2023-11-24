@@ -60,18 +60,22 @@
               </div>
               <div class="col-md-12 col-sm-10">
                 <input type="text" class="form-control" placeholder="Username" aria-label="First name" id="name" name="username">
+                <span id="name_error" class="error"></span>
               </div>
               <div class="col-md-12 col-sm-10">
                 <input type="text" class="form-control" placeholder="Surname" aria-label="Last name" id="lname" name="surname">
+                <span id="surname_error" class="error"></span>
               </div>
               <div class="col-md-12 col-sm-10">
                   <input type="email" class="form-control" placeholder="Email" aria-label="Last name" id="email" name="email">
+                  <span id="email_error" class="error"></span>
               </div>
               <div class="col-md-12 col-sm-10">
                   <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="pass" name="password">
+                  <span id="password_error" class="error"></span>
               </div>
               <div class="col-md-12 col-sm-10 d-flex justify-content-center">
-                  <button type="submit" class="btn btn-outline-light" id="signup_but">Sign up</button>
+                  <button type="submit" class="btn btn-outline-light" id="signup_but" onclick="handle()">Sign up</button>
               </div>
           </div>
       </form>

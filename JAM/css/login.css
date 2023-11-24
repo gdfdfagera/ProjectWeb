@@ -8,6 +8,11 @@ body{
     width: 150px;
 }
 
+.error {    
+    color: red;
+    margin: 5px;
+}
+
 
 ul{
     display: flex;

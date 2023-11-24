@@ -54,37 +54,37 @@ let products = [
         id: 7,
         name: 'Vocal lessons per 1 month',
         image: 'Emily.jpg',
-        price: 81000
+        price: 10000
     },
     {
         id: 8,
         name: 'Vocal lessons per 3 month',
         image: 'Emily.jpg',
-        price: 81000
+        price: 25000
     },
     {
         id: 9,
         name: 'Vocal lessons per 6 month',
         image: 'Emily.jpg',
-        price: 81000
+        price: 50000
     },
     {
         id: 10,
         name: 'Drum lessons per 1 month',
         image: 'David.webp',
-        price: 81000
+        price: 11000
     },
     {
         id: 11,
         name: 'Drum lessons per 3 month',
         image: 'David.webp',
-        price: 81000
+        price: 30000
     },
     {
         id: 12,
         name: 'Drum lessons per 6 month',
         image: 'David.webp',
-        price: 81000
+        price: 60000
     }
 ];
 let listCards  = [];

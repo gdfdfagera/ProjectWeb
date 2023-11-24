@@ -17,6 +17,11 @@ ul{
     align-items: center;
 }
 
+.error {
+    color: red;
+    margin: 3px;
+}
+
 
 .main{
     display: flex;

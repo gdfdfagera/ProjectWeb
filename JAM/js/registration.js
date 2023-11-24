@@ -1,27 +1,76 @@
-document.querySelector('#signup_but').onclick = function fun(){
-    var name = document.getElementById("name").value;
-    var lname = document.getElementById("lname").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("pass").value;
-    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    const pass = /^[a-zA-Z0-9]+&/
-    
-    if (name.length < 3 || name.length > 10){
-        alert("Your name must have more than 3 and less than 10 characters");
-        return false;
-    }
-    if (lname.length < 3 || lname.length > 10){
-        alert("Your last name must have more than 3 and less than 10 characters");
-        return false;
-    }
-    if (!email.match(emailPattern)){
-        alert("Your email is not correct");
-        return false;
-    }
-    if (password.length < 8){
-        alert("Your password must have not less than 8 character");
-        return false;
-    }
+function handle() {
+    const n = validateFullName()
+    const l = validateSurName()
+    const e = validateEmail()
+    const p = validatePassword()
 
-    return true;
-};
+    if (!e && !n && !l && !p) {
+        alert('incorrect fields, check errors')
+    }
+}
+
+function validateFullName() {
+    const fullName = document.getElementById('name').value;
+    const fullNameError = document.getElementById('name_error');
+    
+    if (fullName.length < 4) {
+      fullNameError.textContent = 'min len of name is 4';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
+
+  function validateSurName() {
+    const fullName = document.getElementById('lname').value;
+    const fullNameError = document.getElementById('surname_error');
+    
+    if (fullName.length < 4) {
+      fullNameError.textContent = 'min len of surname is 4';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
+
+  
+  function validateEmail() {
+    const fullName = document.getElementById('email').value;
+    const fullNameError = document.getElementById('email_error');
+  
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    if (emailRegex.test(fullName)) {
+      fullNameError.textContent = 'Incorrect email';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
+
+  function validatePassword() {
+    const fullName = document.getElementById('pass');
+    const fullNameError = document.getElementById('password_error');
+      
+    if (fullName.value.length < 8) {
+      fullNameError.textContent = 'minimum 8 symbols';
+      return false;
+    } else {
+      fullNameError.textContent = '';
+      return true;
+    }
+  }
+
+document.getElementById('pass').addEventListener('blur', validateEmail)
+
+document.getElementById('email').addEventListener('blur', validatePassword)
+
+document.getElementById('name').addEventListener('blur', validateFullName)
+
+document.getElementById('lname').addEventListener('blur', validateSurName)
+
+
+

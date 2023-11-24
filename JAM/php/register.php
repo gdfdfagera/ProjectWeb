@@ -7,6 +7,11 @@ $surname = $_POST['surname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 
+if ($login == null || $surname == null || $email == null || $password == null){
+    header('location:/JAM/registration.php');
+    die();
+}
+
 
 
 $sql = "SELECT `email` FROM `Users` WHERE email = '$email'";
