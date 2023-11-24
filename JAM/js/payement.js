@@ -1,4 +1,4 @@
-document.getElementById('price').innerHTML = localStorage.getItem('price');
+document.getElementById('price').innerHTML = localStorage.getItem('price') + "kzt";
 
 
 const cardPattern = /^[0-9]{13,17}$/;
